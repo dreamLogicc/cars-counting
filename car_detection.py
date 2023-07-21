@@ -4,6 +4,7 @@ import numpy as np
 from cvlib.object_detection import draw_bbox
 import imageio.v3 as iio
 
+
 def play(bytes):
 
     def get_bbox_center(bbox):

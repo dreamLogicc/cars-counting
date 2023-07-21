@@ -1,10 +1,7 @@
 from dash import Dash, dcc, html, Input, Output, callback
 import base64
 import io
-
 from car_detection import play
-
-import pandas as pd
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
